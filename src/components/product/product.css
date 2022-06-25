@@ -1,0 +1,51 @@
+.p{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: .1rem solid #34495E;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .4);
+}
+
+.p-browser{
+    height: 20px;
+    background: radial-gradient(#AEB6BF, #F0F3F4);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.p-circle{
+    border-radius: 50%;
+    background: #0B5345;
+    height: 7px;
+    width: 7px;
+    margin: 3px;
+}
+
+.p-img{
+    width: 100%;
+    transition: all 9s ease-in-out;
+}
+
+.p:hover .p-img{
+    transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+    .p{
+        width: 40%;
+        height: 20vh;
+    }
+}
+
+
+
+
+
+
+
+
+

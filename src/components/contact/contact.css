@@ -1,0 +1,162 @@
+.c{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to top, #5499C7, #BB8FCE);
+}
+
+.c-bg{
+    width: 50%;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%); 
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    background-color: #0B5345;
+    position: absolute;
+    opacity: .1;
+}
+
+.c-wrapper{
+    display: flex;
+    padding: 50px;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 70%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.c-desc{
+    font-weight: 200;
+}
+
+.c-image{
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, .5);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.c-img{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: .1rem solid #34495E;
+    margin: 10px 0;
+    font-size: 15px;
+    padding-left: 10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .3);
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+    font-size: 15px;
+    padding-left: 10px;
+    border-bottom: .1rem solid #34495E;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .3);
+}
+
+button{
+    border: none;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-bottom: .1rem solid #34495E;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    background: #1F618D;
+    color: #F0F3F4;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 10000;
+}
+
+@media screen and (max-width: 480px) {
+    
+    
+    .c-wrapper{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .c-title{
+        font-size: 30px;
+    }
+
+    .c-info-item{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .c-image{
+        display: none;
+    }
+
+    .c-desc{
+        display: none;
+    }
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 35%;
+        height: 20px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    textarea{
+        width: 80%;
+    }
+
+    button{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
