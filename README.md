@@ -1,4 +1,4 @@
-                                                      Portfolio created with React Javascript
+                                                Portfolio created with React Javascript
 Here you can take a look to the Portfolio with React JS. Project designed with colorful pages like: 
 Home, About, Slides(with Animations) and Contact page.
 
